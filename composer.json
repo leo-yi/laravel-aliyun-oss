@@ -1,0 +1,28 @@
+{
+    "name": "leoyi/laravel-aliyun-oss",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leo",
+            "email": "uyihoo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "description": "a ",
+    "autoload": {
+        "psr-4": {
+            "LeoYi\\AliyunOSS\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LeoYi\\AliyunOSS\\AliyunOSSServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "aliyuncs/oss-sdk-php": "^2.0"
+    }
+}
