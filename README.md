@@ -9,10 +9,10 @@
 - Laravel 5.5+
 - cURL extension
 
-##Installation
+## Installation
 In order to install Aliyun-OSS-storage, just run below command to install:
 
-    composer require leo-yi/laravel-aliyun-oss
+    composer require leoyi/laravel-aliyun-oss
 
 ## Configuration
 Add the following in app/filesystems.php:
@@ -87,4 +87,4 @@ Storage::url('path/to/img.jpg') // get the file url
 More development detail see [Aliyun OSS DOC](https://help.aliyun.com/document_detail/32099.html)
 
 ## License
-Source code is release under MIT license. Read LICENSE file for more information.
+MIT
