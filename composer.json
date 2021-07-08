@@ -8,8 +8,8 @@
             "email": "uyihoo@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "description": "a ",
+    "minimum-stability": "stable",
+    "description": "a laravel library for aliyun oss",
     "autoload": {
         "psr-4": {
             "LeoYi\\AliyunOSS\\": "src/"
@@ -23,6 +23,7 @@
         }
     },
     "require": {
-        "aliyuncs/oss-sdk-php": "^2.0"
+        "aliyuncs/oss-sdk-php": "^2.0",
+        "composer-runtime-api": "^2.0"
     }
 }
